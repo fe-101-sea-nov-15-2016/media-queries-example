@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            .box {
+                width: 200px;
+                height: 200px;
+                background: red;
+            }
+            @media (min-width: 768px) {
+                .box {
+                    background: yellow;
+                }
+            }
+            @media (min-width: 992px) {
+                .box {
+                    background: green;
+                }
+            }
+            @media (min-width: 1200px) {
+                .box {
+                    background: blue;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box"></div>
+    </body>
+</html>
